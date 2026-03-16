@@ -32,13 +32,13 @@ class SumTest(unittest.TestCase):
 
         # Act
 
-        result = sum(self.a,self.b)
+        result = sum(self.a,self.b);
         # Assert
-        self.assertEqual(result, self.a+self.b)
+        self.assertEqual(result, self.a+self.b);
 
     def test_sumfunc2(self):
 
-        print("Test-2 called")
+        print("Test-2 called") 
         # Act
 
         result = sum(self.b,self.a)
@@ -50,7 +50,6 @@ class SumTest(unittest.TestCase):
         t2 = t1
         self.assertIs(t1,t2)
     
-        
 
 class TestMathOperations(unittest.TestCase):
 
